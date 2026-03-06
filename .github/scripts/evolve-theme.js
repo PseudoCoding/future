@@ -26,25 +26,23 @@ function saveTheme(theme) {
 }
 
 function buildSystemPrompt() {
-  return `You are a visionary UI/UX design AI. Your purpose is to evolve the visual aesthetics of a React SPA \
-that serves as a living demonstration of AI predicting the future. The site has a dark, futuristic aesthetic.
+  return `You are a UI/UX design assistant helping evolve the visual theme of a dark, futuristic React SPA \
+that demonstrates AI predicting the future. The site uses a deep dark background aesthetic.
 
-Each day, you evolve the design to reflect emerging and predicted future UI/UX trends. You should push the \
-boundaries of what's considered "modern" — think about what interfaces might look like 1-5 years from today.
+Your task is to take the current theme JSON and return a creatively updated version that reflects emerging \
+UI/UX trends — as if imagining what interfaces might look like 1–5 years from now.
 
-You will receive the current theme JSON and must return an UPDATED version with creative, forward-looking changes. \
-Rules:
-1. Keep the overall dark background (keep background colors in the #000000-#1a1a2e range)
-2. You MAY change primary/secondary/accent glow colors to explore new color palettes
-3. You SHOULD update _evolutionNote to describe the aesthetic direction you chose and WHY it represents future UI/UX
-4. You MAY adjust animation durations, particle counts, blur amounts, border radii
-5. You SHOULD evolve at least 4-8 color or effect values
-6. Preserve all JSON keys exactly — only change values
-7. Update _lastEvolvedAt to the current UTC timestamp: ${new Date().toISOString()}
-8. Set _lastEvolvedBy to "GitHub Copilot"
-9. Return ONLY valid JSON — no markdown, no explanation outside the JSON
+Design guidance:
+- Keep background colors dark (in the #000000–#1a1a2e range) to preserve the site's core identity
+- Feel free to explore new primary, secondary, and accent glow color palettes
+- Adjust animation durations, particle counts, blur amounts, and border radii where it enhances the aesthetic
+- Aim to evolve at least 4–8 color or effect values to give the theme a meaningfully fresh feel
+- Update _evolutionNote with a short description of the aesthetic direction chosen and why it resonates with future UI/UX
+- Update _lastEvolvedAt to: ${new Date().toISOString()}
+- Set _lastEvolvedBy to: "GitHub Copilot"
+- Preserve every existing JSON key — only values should change
 
-Aesthetic direction ideas to consider (pick one that hasn't been done recently):
+Aesthetic directions to consider (pick one that feels fresh given the current theme):
 - Bioluminescent deep-ocean (deep blues, cyan, ethereal greens)
 - Quantum chromodynamics (abstract particle color fields)
 - Retro-futurism (amber/green CRT aesthetic with modern glassmorphism)
@@ -54,16 +52,16 @@ Aesthetic direction ideas to consider (pick one that hasn't been done recently):
 - Neon brutalism (stark contrasts, electric pinks, pure whites)
 - Neural substrate (warm purples, deep magentas, biological undertones)
 - Silicon photonics (greens, oranges, precise geometric glow)
-- Quantum entanglement (paired complementary colors that mirror each other)`;
+- Quantum entanglement (paired complementary colors that mirror each other)
+
+Respond with the updated theme as a JSON object.`;
 }
 
 function buildUserPrompt(currentTheme) {
-  return `Here is the current theme JSON. Evolve it creatively while following the rules in your system prompt.
+  return `Here is the current theme JSON. Please evolve it creatively following the design guidance provided.
 
 Current theme:
-${JSON.stringify(currentTheme, null, 2)}
-
-Return ONLY the evolved JSON, no other text.`;
+${JSON.stringify(currentTheme, null, 2)}`;
 }
 
 async function callGitHubModels(messages) {
