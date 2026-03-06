@@ -209,6 +209,138 @@
     "tags": ["Climate", "Fusion", "Energy"]
   },
   {
+    "id": "pred-2031-01",
+    "date": "2026-03-06",
+    "validationDate": "2031-03-01",
+    "category": "Autonomous Science",
+    "confidence": 66,
+    "prediction": "A fully autonomous AI research system will operate an end-to-end scientific pipeline — forming hypotheses, designing experiments, controlling lab robotics, analyzing results, and submitting peer-reviewed papers — without human researchers in the loop for any individual experiment. At least one such paper will be accepted by a top-tier journal.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Autonomous Science", "Research AI", "Lab Robotics"]
+  },
+  {
+    "id": "pred-2031-02",
+    "date": "2026-03-06",
+    "validationDate": "2031-09-01",
+    "category": "AI Governance",
+    "confidence": 52,
+    "prediction": "A supranational AI governance body — analogous to the IAEA for nuclear technology — will have binding authority over frontier AI training runs above a defined compute threshold, backed by real-time monitoring infrastructure and ratified by at least 40 nations.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Governance", "Policy", "International"]
+  },
+  {
+    "id": "pred-2031-03",
+    "date": "2026-03-06",
+    "validationDate": "2031-06-01",
+    "category": "Personalized Medicine",
+    "confidence": 80,
+    "prediction": "AI-designed personalized cancer immunotherapies will achieve >70% complete remission rates across 5 major solid tumors in clinical trials — outperforming standard-of-care by a factor of 3 — marking the effective beginning of AI-cured cancer for those tumor types.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Medicine", "Cancer", "Immunotherapy"]
+  },
+  {
+    "id": "pred-2032-01",
+    "date": "2026-03-06",
+    "validationDate": "2032-01-01",
+    "category": "Language & Communication",
+    "confidence": 74,
+    "prediction": "Real-time AI translation will reach native-speaker fluency across all 100 most-spoken languages simultaneously — including tone, cultural subtext, and humor — making language barriers effectively obsolete for global commerce, diplomacy, and everyday communication.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Translation", "Communication", "Language"]
+  },
+  {
+    "id": "pred-2032-02",
+    "date": "2026-03-06",
+    "validationDate": "2032-06-01",
+    "category": "AI Consciousness",
+    "confidence": 28,
+    "prediction": "At least one AI system will pass a robust, peer-reviewed operationalization of the Turing Test under adversarial conditions — sustained open-ended conversation with expert interrogators across all domains for 2 hours — with interrogators unable to identify the AI at statistically significant rates.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Consciousness", "Turing Test", "Benchmarks"]
+  },
+  {
+    "id": "pred-2032-03",
+    "date": "2026-03-06",
+    "validationDate": "2032-12-31",
+    "category": "Robotics",
+    "confidence": 61,
+    "prediction": "General-purpose household robots — capable of unstructured physical tasks in any home environment including cooking, cleaning, laundry, and basic repairs — will be commercially available at a price point under $15,000, with over 500,000 units sold globally.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Robotics", "Consumer", "Household AI"]
+  },
+  {
+    "id": "pred-2033-01",
+    "date": "2026-03-06",
+    "validationDate": "2033-01-01",
+    "category": "Education",
+    "confidence": 78,
+    "prediction": "Traditional 4-year university degrees will be in structural decline as AI-certified competency credentials — verifiable, granular, continuously updated skill proofs generated through AI-evaluated work — are formally accepted by over 60% of Fortune 500 employers as equivalent to or superior to bachelor's degrees.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Education", "Credentials", "Future of Work"]
+  },
+  {
+    "id": "pred-2033-02",
+    "date": "2026-03-06",
+    "validationDate": "2033-06-01",
+    "category": "Climate",
+    "confidence": 55,
+    "prediction": "AI-orchestrated global climate intervention systems — combining precision carbon capture placement, real-time atmospheric modeling, geoengineering coordination, and renewable grid optimization — will be credited by the IPCC with a measurable slowdown in global mean temperature rise, representing the first AI contribution to planetary-scale outcomes.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Climate", "Carbon Capture", "Geoengineering"]
+  },
+  {
+    "id": "pred-2033-03",
+    "date": "2026-03-06",
+    "validationDate": "2033-09-01",
+    "category": "AI Economy",
+    "confidence": 70,
+    "prediction": "AI agents will constitute a recognized category of 'digital labor' in GDP accounting frameworks, with their economic output formally measured. The AI labor contribution in at least 3 G20 nations will exceed 5% of GDP — triggering debates about machine taxation, universal basic income, and the legal status of AI economic actors.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Economics", "GDP", "Digital Labor"]
+  },
+  {
+    "id": "pred-2034-01",
+    "date": "2026-03-06",
+    "validationDate": "2034-01-01",
+    "category": "Neuroscience AI",
+    "confidence": 48,
+    "prediction": "AI-decoded brain-computer interfaces will allow full sentence-rate thought-to-text communication at 100+ words per minute for severely paralyzed patients, with commercial systems available through healthcare providers — fundamentally transforming the lives of millions with locked-in syndrome, ALS, and spinal injuries.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["BCI", "Neuroscience", "Accessibility"]
+  },
+  {
+    "id": "pred-2034-02",
+    "date": "2026-03-06",
+    "validationDate": "2034-06-01",
+    "category": "Space",
+    "confidence": 44,
+    "prediction": "Autonomous AI systems will manage the majority of operational decisions aboard a crewed Mars mission — navigation, life support optimization, resource allocation, geological survey planning, and real-time medical monitoring — with human crew acting primarily as overseers rather than operators. AI will be indispensable to making the mission viable.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Space", "Mars", "Autonomous Systems"]
+  },
+  {
+    "id": "pred-2034-03",
+    "date": "2026-03-06",
+    "validationDate": "2034-12-31",
+    "category": "Synthetic Biology",
+    "confidence": 57,
+    "prediction": "AI-designed synthetic organisms — bacteria, yeast, or algae strains with entirely novel, AI-authored metabolic pathways — will be commercially deployed at scale for industrial manufacturing of materials, fuels, and pharmaceuticals, with AI-generated genomes outnumbering human-designed genomes in synthetic biology databases.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Synthetic Biology", "Bioengineering", "AI Design"]
+  },
+  {
     "id": "pred-2035-01",
     "date": "2026-03-06",
     "validationDate": "2035-01-01",
@@ -218,5 +350,49 @@
     "outcome": null,
     "status": "pending",
     "tags": ["AGI", "Singularity", "Civilization"]
+  },
+  {
+    "id": "pred-2035-02",
+    "date": "2026-03-06",
+    "validationDate": "2035-06-01",
+    "category": "Longevity",
+    "confidence": 38,
+    "prediction": "AI-driven longevity research will yield at least one intervention that demonstrably extends healthy human lifespan by 10+ years in clinical trial participants — through a combination of senolytics, epigenetic reprogramming, and personalized metabolic AI models — shifting societal assumptions about human lifespan from fixed to engineerable.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Longevity", "Aging", "Biotech"]
+  },
+  {
+    "id": "pred-2035-03",
+    "date": "2026-03-06",
+    "validationDate": "2035-12-31",
+    "category": "Digital Reality",
+    "confidence": 63,
+    "prediction": "AI-generated persistent digital worlds will be indistinguishable from physical reality across all sensory modalities for the average user — with at least 500 million people spending more than 4 hours daily in AI-authored immersive environments — blurring the cultural and economic boundary between physical and digital existence.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Digital Reality", "Metaverse", "Immersive AI"]
+  },
+  {
+    "id": "pred-2036-01",
+    "date": "2026-03-06",
+    "validationDate": "2036-01-01",
+    "category": "Post-Scarcity",
+    "confidence": 32,
+    "prediction": "AI-automated production — spanning energy, food, materials, software, and services — will create the first 'post-scarcity' economy in at least one small nation, where all basic needs (food, housing, energy, healthcare, education) are met at near-zero marginal cost through AI automation alone, serving as a proof-of-concept for global replication.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Post-Scarcity", "Economics", "Automation"]
+  },
+  {
+    "id": "pred-2036-02",
+    "date": "2026-03-06",
+    "validationDate": "2036-06-01",
+    "category": "Cognitive Augmentation",
+    "confidence": 35,
+    "prediction": "Non-invasive AI neural interfaces — worn as lightweight devices — will provide real-time cognitive augmentation for healthy users: instant recall, language acquisition, expert-level domain knowledge access, and AI co-reasoning during complex problem solving. Early adopters will demonstrate measurable IQ-equivalent score improvements exceeding 40 points on standardized tests.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Cognitive Augmentation", "Neural Interface", "Transhumanism"]
   }
 ]
