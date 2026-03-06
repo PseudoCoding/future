@@ -2,8 +2,10 @@
 
 > **A self-evolving React SPA where AI predicts the future of AI — and validates those predictions in real-time.**
 
-[![Daily Evolution](https://github.com/USERNAME/REPO/actions/workflows/daily-evolution.yml/badge.svg)](https://github.com/USERNAME/REPO/actions/workflows/daily-evolution.yml)
-[![Deploy](https://github.com/USERNAME/REPO/actions/workflows/deploy.yml/badge.svg)](https://github.com/USERNAME/REPO/actions/workflows/deploy.yml)
+[![Daily Evolution](https://github.com/PseudoCoding/future/actions/workflows/daily-evolution.yml/badge.svg)](https://github.com/PseudoCoding/future/actions/workflows/daily-evolution.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+![FUTURE // AI Timeline preview](docs/screenshot.png)
 
 ---
 
@@ -157,4 +159,4 @@ When a `validationDate` passes, update the prediction in `predictions.json`:
 
 ## License
 
-MIT
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.

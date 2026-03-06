@@ -98,7 +98,7 @@ export default function Header() {
         </div>
 
         <a
-          href="https://github.com"
+          href="https://github.com/PseudoCoding/future"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-4 py-2 rounded-lg border text-sm font-mono transition-all"

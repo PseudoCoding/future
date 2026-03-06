@@ -18,7 +18,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com"
+            href="https://github.com/PseudoCoding/future"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-xs font-mono transition-colors"
