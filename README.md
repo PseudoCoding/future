@@ -45,8 +45,7 @@ future/
 │       └── index.ts
 ├── .github/
 │   ├── workflows/
-│   │   ├── daily-evolution.yml # Scheduled Copilot aesthetic evolution
-│   │   └── deploy.yml          # GitHub Pages deployment
+│   │   └── daily-evolution.yml # Scheduled Copilot aesthetic evolution
 │   └── scripts/
 │       └── evolve-theme.js    # Calls GitHub Models API to evolve theme
 ```
@@ -98,7 +97,7 @@ Every 24h @ 12:00 UTC
 
 ### Prerequisites
 - Node.js 20+
-- A GitHub repository with GitHub Pages enabled
+- A [Cloudflare Pages](https://pages.cloudflare.com) project connected to this repository
 - GitHub Models access (available on GitHub Free/Pro)
 
 ### Local Development
@@ -108,12 +107,13 @@ npm install
 npm run dev
 ```
 
-### Deploy to GitHub Pages
+### Deploy to Cloudflare Pages
 
 1. Fork/clone this repository
-2. Go to **Settings → Pages** and set source to **GitHub Actions**
-3. The `deploy.yml` workflow runs on every push to `main`
-4. The `daily-evolution.yml` runs at 12:00 UTC daily
+2. In the [Cloudflare Dashboard](https://dash.cloudflare.com), create a new Pages project and connect it to your repo
+3. Set the build command to `npm run build` and output directory to `dist`
+4. Cloudflare Pages automatically redeploys on every push to `main`
+5. The `daily-evolution.yml` GitHub Action runs at 12:00 UTC daily, commits the evolved theme, and triggers a Cloudflare redeploy
 
 ### Adding Predictions
 
@@ -147,13 +147,13 @@ When a `validationDate` passes, update the prediction in `predictions.json`:
 | Layer | Technology |
 |---|---|
 | Framework | React 18 + TypeScript |
-| Build | Vite 5 |
+| Build | Vite 6 |
 | Styling | Tailwind CSS + CSS Custom Properties |
 | Animation | Framer Motion |
 | Background | Canvas API (particle neural network) |
 | CI/CD | GitHub Actions |
 | AI | GitHub Models (GPT-4o via Copilot) |
-| Hosting | GitHub Pages |
+| Hosting | Cloudflare Pages |
 
 ---
 
