@@ -1,0 +1,120 @@
+name: 🤖 Copilot Daily Aesthetic Evolution
+
+on:
+  schedule:
+    # Runs daily at 12:00 UTC
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+    inputs:
+      force_evolution:
+        description: 'Force a new aesthetic evolution even if one ran today'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+  models: read
+
+jobs:
+  evolve-aesthetics:
+    name: Evolve UI Aesthetics with Copilot
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install script dependencies
+        run: npm install --prefix .github/scripts
+
+      - name: Run Copilot theme evolution
+        id: evolve
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node .github/scripts/evolve-theme.js
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet src/theme/evolution.json && \
+            echo "changed=false" >> $GITHUB_OUTPUT || \
+            echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push evolved theme
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          EVOLUTION_NOTE=$(node -e "
+            const t = require('./src/theme/evolution.json');
+            console.log(t._evolutionNote || 'Daily aesthetic evolution');
+          ")
+
+          git add src/theme/evolution.json
+          git commit -m "🎨 Copilot aesthetic evolution: ${EVOLUTION_NOTE:0:80}
+
+          Evolved by: GitHub Copilot
+          Triggered by: Scheduled daily run
+          Date: $(date -u '+%Y-%m-%d %H:%M UTC')
+
+          [skip ci]"
+          git push
+
+      - name: No changes detected
+        if: steps.changes.outputs.changed == 'false'
+        run: echo "Theme already up to date — no evolution needed."
+
+  # After theme evolution, rebuild and deploy
+  deploy:
+    name: Build & Deploy to GitHub Pages
+    needs: evolve-aesthetics
+    runs-on: ubuntu-latest
+    if: always()
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main  # use latest after potential theme commit
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

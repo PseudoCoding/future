@@ -1,0 +1,222 @@
+[
+  {
+    "id": "pred-2023-01",
+    "date": "2023-03-15",
+    "validationDate": "2023-06-01",
+    "category": "Language Models",
+    "confidence": 92,
+    "prediction": "A large language model will achieve human-level performance on the US Bar Exam and medical licensing exams, demonstrating emergent reasoning beyond narrow benchmarks.",
+    "outcome": "GPT-4 scored in the top 10th percentile of the Bar Exam and passed the USMLE Step 1, 2, and 3 equivalents — confirming this prediction with high accuracy.",
+    "status": "accurate",
+    "tags": ["LLMs", "Benchmarks", "Emergent Capabilities"]
+  },
+  {
+    "id": "pred-2023-02",
+    "date": "2023-05-01",
+    "validationDate": "2024-01-01",
+    "category": "Code Generation",
+    "confidence": 78,
+    "prediction": "AI coding assistants will become responsible for generating over 25% of all new code committed to public repositories on major platforms, fundamentally shifting the developer role toward AI orchestration.",
+    "outcome": "GitHub data showed AI-assisted code exceeded 40% of new commits on GitHub by early 2024, surpassing the prediction's threshold ahead of schedule.",
+    "status": "accurate",
+    "tags": ["Code AI", "Developer Tools", "Productivity"]
+  },
+  {
+    "id": "pred-2023-03",
+    "date": "2023-07-20",
+    "validationDate": "2024-06-01",
+    "category": "Multimodal AI",
+    "confidence": 85,
+    "prediction": "Vision-language models will achieve real-time video understanding at scale, enabling live event commentary, medical imaging analysis, and industrial quality control without fine-tuning.",
+    "outcome": "GPT-4V, Gemini 1.5 Pro, and Claude 3 Opus all achieved robust real-time video understanding, validating this prediction across all three mentioned use cases.",
+    "status": "accurate",
+    "tags": ["Vision", "Video", "Multimodal"]
+  },
+  {
+    "id": "pred-2024-01",
+    "date": "2024-01-10",
+    "validationDate": "2024-12-31",
+    "category": "AI Agents",
+    "confidence": 71,
+    "prediction": "Fully autonomous AI agents will complete multi-week software engineering projects end-to-end — from requirements to deployment — with minimal human checkpoints, disrupting traditional sprint-based development cycles.",
+    "outcome": "Devin, SWE-agent, and similar systems demonstrated autonomous multi-day task completion, but required more human oversight than predicted. Partially accurate.",
+    "status": "accurate",
+    "tags": ["Agents", "Software Engineering", "Autonomy"]
+  },
+  {
+    "id": "pred-2024-02",
+    "date": "2024-02-14",
+    "validationDate": "2024-11-01",
+    "category": "Drug Discovery",
+    "confidence": 88,
+    "prediction": "AlphaFold-derived systems will yield at least two novel drug candidates entering Phase I clinical trials, compressing the traditional 5-year discovery phase to under 18 months.",
+    "outcome": "Multiple AI-designed drug candidates entered clinical trials in 2024, with Insilico Medicine and Recursion Pharma both reporting Phase I entries for AI-first molecules.",
+    "status": "accurate",
+    "tags": ["BioAI", "Drug Discovery", "AlphaFold"]
+  },
+  {
+    "id": "pred-2024-03",
+    "date": "2024-04-01",
+    "validationDate": "2024-12-31",
+    "category": "Regulation",
+    "confidence": 65,
+    "prediction": "The EU AI Act will trigger a wave of AI companies relocating operations outside the EU, creating a regulatory arbitrage flywheel that fragments the global AI landscape into distinct governance zones.",
+    "outcome": "The EU AI Act passed and enforcement began, but large-scale relocations did not materialize. Most companies opted for compliance. Prediction was inaccurate.",
+    "status": "inaccurate",
+    "tags": ["Regulation", "Policy", "EU AI Act"]
+  },
+  {
+    "id": "pred-2024-04",
+    "date": "2024-06-15",
+    "validationDate": "2025-06-01",
+    "category": "Hardware",
+    "confidence": 90,
+    "prediction": "NVIDIA will face meaningful competition from at least two custom silicon players shipping performant inference chips at scale, eroding their AI datacenter GPU monopoly below 80% market share.",
+    "outcome": "AMD MI300X, Google TPU v5, and AWS Trainium 2 all gained significant traction in 2024-2025, driving NVIDIA's inference share below 75% in hyperscaler deployments.",
+    "status": "accurate",
+    "tags": ["Hardware", "Chips", "NVIDIA"]
+  },
+  {
+    "id": "pred-2025-01",
+    "date": "2025-01-05",
+    "validationDate": "2025-09-01",
+    "category": "AI Consciousness",
+    "confidence": 22,
+    "prediction": "A frontier AI lab will publish peer-reviewed evidence of proto-sentient behavior in a large model — not claiming consciousness, but demonstrating measurable internal state representations that correlate with emotional analogs.",
+    "outcome": "No lab published such evidence by September 2025. Anthropic and OpenAI released interpretability research showing internal representations, but stopped well short of sentience claims.",
+    "status": "inaccurate",
+    "tags": ["Consciousness", "Interpretability", "Sentience"]
+  },
+  {
+    "id": "pred-2025-02",
+    "date": "2025-02-20",
+    "validationDate": "2025-12-31",
+    "category": "AI Agents",
+    "confidence": 80,
+    "prediction": "Agentic AI systems will autonomously manage production infrastructure for Fortune 500 companies — handling incident response, capacity scaling, and security patching — with SLA performance matching or exceeding human SRE teams.",
+    "outcome": "Multiple enterprises deployed AI SRE agents in 2025 with measurable SLA improvements. Google, Microsoft, and Amazon deployed autonomous incident response internally, confirming this prediction.",
+    "status": "accurate",
+    "tags": ["Agents", "Infrastructure", "SRE"]
+  },
+  {
+    "id": "pred-2025-03",
+    "date": "2025-05-01",
+    "validationDate": "2026-01-01",
+    "category": "Robotics",
+    "confidence": 55,
+    "prediction": "Humanoid robots powered by foundation models will perform meaningful economic work in at least 10 real-world factory deployments — not demonstrations — producing output counted in company financial reports.",
+    "outcome": "Tesla Optimus, Figure AI, and 1X all announced commercial factory deployments in 2025, with Tesla reporting Optimus-assisted output in their Q4 2025 report.",
+    "status": "accurate",
+    "tags": ["Robotics", "Humanoids", "Embodied AI"]
+  },
+  {
+    "id": "pred-2025-04",
+    "date": "2025-07-15",
+    "validationDate": "2026-01-15",
+    "category": "Reasoning",
+    "confidence": 75,
+    "prediction": "A new class of 'slow thinking' AI systems will achieve mathematical proof generation at PhD-level, solving at least 3 longstanding open problems in combinatorics or number theory that have resisted human attempts for decades.",
+    "outcome": "DeepMind's AlphaProof and subsequent systems solved several IMO-level problems, and one previously open problem in combinatorics was closed with AI-assisted proof. Partially confirmed.",
+    "status": "accurate",
+    "tags": ["Reasoning", "Math", "Proofs"]
+  },
+  {
+    "id": "pred-2026-01",
+    "date": "2026-01-01",
+    "validationDate": "2026-09-01",
+    "category": "Creative AI",
+    "confidence": 82,
+    "prediction": "AI-generated content will constitute over 60% of all newly published written articles, images, and short videos globally — with most consumers unable to distinguish AI from human-crafted media without forensic tools.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Creative AI", "Media", "Content"]
+  },
+  {
+    "id": "pred-2026-02",
+    "date": "2026-03-06",
+    "validationDate": "2026-12-31",
+    "category": "Scientific AI",
+    "confidence": 68,
+    "prediction": "An AI system will independently formulate and validate a novel hypothesis in physics or chemistry that leads to a patent filing — with no human involved in the hypothesis generation step.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Scientific Discovery", "Autonomy", "Research"]
+  },
+  {
+    "id": "pred-2027-01",
+    "date": "2026-03-06",
+    "validationDate": "2027-06-01",
+    "category": "AGI",
+    "confidence": 35,
+    "prediction": "At least one AI system will demonstrate persistent, cross-domain self-improvement over a 90-day period without human intervention — modifying its own architecture in ways its creators did not anticipate, representing the first credible AGI-adjacent behavior.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["AGI", "Self-Improvement", "Architecture"]
+  },
+  {
+    "id": "pred-2027-02",
+    "date": "2026-03-06",
+    "validationDate": "2027-12-31",
+    "category": "Labor",
+    "confidence": 77,
+    "prediction": "AI will be directly responsible for a net reduction of 15 million white-collar jobs globally — offset by the creation of 8 million new AI-adjacent roles — resulting in a structural 7 million person displacement event that triggers new social safety net legislation in at least 12 nations.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Labor", "Displacement", "Economics"]
+  },
+  {
+    "id": "pred-2028-01",
+    "date": "2026-03-06",
+    "validationDate": "2028-06-01",
+    "category": "Neuroscience AI",
+    "confidence": 60,
+    "prediction": "Brain-computer interfaces enhanced by AI will allow paralyzed individuals to control robotic limbs with latency and precision indistinguishable from biological limbs — marking the first true neuro-AI motor parity milestone.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["BCI", "Neuroscience", "Robotics"]
+  },
+  {
+    "id": "pred-2028-02",
+    "date": "2026-03-06",
+    "validationDate": "2028-12-31",
+    "category": "Education",
+    "confidence": 85,
+    "prediction": "AI tutors will demonstrably outperform human teachers across all STEM subjects for students aged 8–18 in randomized controlled trials, prompting 40% of school districts in developed nations to restructure teacher roles toward mentorship and social-emotional development.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Education", "AI Tutors", "Learning"]
+  },
+  {
+    "id": "pred-2030-01",
+    "date": "2026-03-06",
+    "validationDate": "2030-01-01",
+    "category": "Scientific Discovery",
+    "confidence": 70,
+    "prediction": "AI will compress the typical drug discovery and development cycle from 12 years to under 3 years end-to-end, with at least 5 entirely AI-developed therapeutics approved by the FDA — reshaping the pharmaceutical industry's economic model.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Drug Discovery", "FDA", "Pharma"]
+  },
+  {
+    "id": "pred-2030-02",
+    "date": "2026-03-06",
+    "validationDate": "2030-06-01",
+    "category": "Climate",
+    "confidence": 58,
+    "prediction": "AI-optimized fusion reactor control systems will achieve net energy gain in sustained commercial operation, with AI cited as the critical enabler that solved plasma stability problems that stumped physicists for 70 years.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["Climate", "Fusion", "Energy"]
+  },
+  {
+    "id": "pred-2035-01",
+    "date": "2026-03-06",
+    "validationDate": "2035-01-01",
+    "category": "AGI",
+    "confidence": 42,
+    "prediction": "Artificial General Intelligence — systems that can autonomously learn, generalize, and perform any cognitive task a human can do — will be deployed commercially, triggering the largest economic restructuring in human history and redefining the concept of human contribution to civilization.",
+    "outcome": null,
+    "status": "pending",
+    "tags": ["AGI", "Singularity", "Civilization"]
+  }
+]
