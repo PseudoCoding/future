@@ -1,31 +1,31 @@
 {
   "_comment": "This file is autonomously evolved daily by GitHub Copilot based on emerging UI/UX trends.",
   "_lastEvolvedBy": "GitHub Copilot",
-  "_lastEvolvedAt": "2026-03-06T18:24:03.151Z",
-  "_evolutionNote": "Evolved to an Arctic aurora aesthetic with icy blues, greens, and purples to evoke a serene yet high-contrast futuristic interface.",
+  "_lastEvolvedAt": "2026-03-07T12:16:12.313Z",
+  "_evolutionNote": "Evolved to a Quantum Entanglement aesthetic, utilizing paired complementary colors with a glowing, mirrored effect to evoke the interconnected nature of the universe.",
   "colors": {
-    "background": "#0a0d18",
-    "backgroundSecondary": "#121826",
-    "backgroundTertiary": "#1a2336",
-    "primary": "#6ee7f7",
-    "primaryGlow": "rgba(110, 231, 247, 0.3)",
-    "primaryDim": "rgba(110, 231, 247, 0.6)",
-    "secondary": "#7c3aed",
-    "secondaryGlow": "rgba(124, 58, 237, 0.25)",
-    "accent": "#22d3ee",
-    "accentGlow": "rgba(34, 211, 238, 0.3)",
-    "accurate": "#34d399",
-    "accurateGlow": "rgba(52, 211, 153, 0.25)",
-    "inaccurate": "#e11d48",
-    "inaccurateGlow": "rgba(225, 29, 72, 0.2)",
-    "pending": "#8b5cf6",
-    "pendingGlow": "rgba(139, 92, 246, 0.3)",
-    "textPrimary": "#e0f2f1",
-    "textSecondary": "#94a3b8",
-    "textDim": "#475569",
-    "border": "rgba(110, 231, 247, 0.25)",
-    "borderStrong": "rgba(110, 231, 247, 0.4)",
-    "scanline": "rgba(110, 231, 247, 0.05)"
+    "background": "#0d0d1f",
+    "backgroundSecondary": "#161b30",
+    "backgroundTertiary": "#232946",
+    "primary": "#ff6f61",
+    "primaryGlow": "rgba(255, 111, 97, 0.35)",
+    "primaryDim": "rgba(255, 111, 97, 0.7)",
+    "secondary": "#4fd1c5",
+    "secondaryGlow": "rgba(79, 209, 197, 0.35)",
+    "accent": "#ffb457",
+    "accentGlow": "rgba(255, 180, 87, 0.3)",
+    "accurate": "#66d9e8",
+    "accurateGlow": "rgba(102, 217, 232, 0.25)",
+    "inaccurate": "#f43f5e",
+    "inaccurateGlow": "rgba(244, 63, 94, 0.25)",
+    "pending": "#9f7aea",
+    "pendingGlow": "rgba(159, 122, 234, 0.3)",
+    "textPrimary": "#fef6e4",
+    "textSecondary": "#a3b9c9",
+    "textDim": "#5c7080",
+    "border": "rgba(255, 111, 97, 0.3)",
+    "borderStrong": "rgba(79, 209, 197, 0.4)",
+    "scanline": "rgba(102, 217, 232, 0.05)"
   },
   "typography": {
     "fontDisplay": "Inter",
@@ -34,27 +34,27 @@
     "headingWeight": "600"
   },
   "effects": {
-    "particleCount": 80,
-    "particleSpeed": 0.6,
-    "glowIntensity": 1.2,
+    "particleCount": 100,
+    "particleSpeed": 0.8,
+    "glowIntensity": 1.4,
     "scanlineVisible": true,
-    "noiseVisible": false,
+    "noiseVisible": true,
     "bloomEnabled": true,
-    "cardBlur": "16px",
-    "cardOpacity": "0.1",
-    "borderRadius": "16px",
-    "timelineGlowWidth": "3px"
+    "cardBlur": "20px",
+    "cardOpacity": "0.12",
+    "borderRadius": "20px",
+    "timelineGlowWidth": "4px"
   },
   "animations": {
-    "transitionSpeed": "0.3s",
-    "floatDuration": "5s",
-    "pulseDuration": "2.5s",
-    "scanDuration": "10s",
-    "particleDuration": "18s"
+    "transitionSpeed": "0.25s",
+    "floatDuration": "4.5s",
+    "pulseDuration": "2s",
+    "scanDuration": "8s",
+    "particleDuration": "16s"
   },
   "layout": {
-    "timelineStyle": "vertical-center",
+    "timelineStyle": "horizontal-glow",
     "cardStyle": "glassmorphism",
-    "backgroundPattern": "aurora-borealis"
+    "backgroundPattern": "quantum-particle-field"
   }
 }
