@@ -1,31 +1,31 @@
 {
   "_comment": "This file is autonomously evolved daily by GitHub Copilot based on emerging UI/UX trends.",
   "_lastEvolvedBy": "GitHub Copilot",
-  "_lastEvolvedAt": "2026-05-20T13:09:08.863Z",
-  "_evolutionNote": "Evolved the theme to reflect a 'Void Matter' aesthetic, inspired by near-black tones with ethereal ultra-violet accents barely visible in the darkness. This design emphasizes minimalism while evoking mystery and depth, perfect for a futuristic interface showcasing AI's predictions.",
+  "_lastEvolvedAt": "2026-05-21T13:22:42.549Z",
+  "_evolutionNote": "Evolved the theme to reflect an 'Arctic Aurora' aesthetic, inspired by icy blues, greens, and purples with high-contrast glow effects. This design captures the ethereal beauty of polar lights, creating a visually captivating interface that emphasizes wonder and futuristic exploration.",
   "colors": {
-    "background": "#0a0a13",
-    "backgroundSecondary": "#121224",
-    "backgroundTertiary": "#1a1a2e",
-    "primary": "#8e00f2",
-    "primaryGlow": "rgba(142, 0, 242, 0.8)",
-    "primaryDim": "rgba(142, 0, 242, 0.4)",
-    "secondary": "#bb22ff",
-    "secondaryGlow": "rgba(187, 34, 255, 0.75)",
-    "accent": "#4d00ff",
-    "accentGlow": "rgba(77, 0, 255, 0.7)",
-    "accurate": "#3f0aff",
-    "accurateGlow": "rgba(63, 10, 255, 0.65)",
-    "inaccurate": "#e00274",
-    "inaccurateGlow": "rgba(224, 2, 116, 0.65)",
-    "pending": "#5a00b3",
-    "pendingGlow": "rgba(90, 0, 179, 0.7)",
-    "textPrimary": "#ffffff",
-    "textSecondary": "#d6b3ff",
-    "textDim": "#8c7fa6",
-    "border": "rgba(142, 0, 242, 0.6)",
-    "borderStrong": "rgba(187, 34, 255, 0.65)",
-    "scanline": "rgba(142, 0, 242, 0.03)"
+    "background": "#0c0c1c",
+    "backgroundSecondary": "#131337",
+    "backgroundTertiary": "#1a1a42",
+    "primary": "#00c7ff",
+    "primaryGlow": "rgba(0, 199, 255, 0.85)",
+    "primaryDim": "rgba(0, 199, 255, 0.5)",
+    "secondary": "#00ff99",
+    "secondaryGlow": "rgba(0, 255, 153, 0.8)",
+    "accent": "#f277ff",
+    "accentGlow": "rgba(242, 119, 255, 0.75)",
+    "accurate": "#0099ff",
+    "accurateGlow": "rgba(0, 153, 255, 0.7)",
+    "inaccurate": "#ff0055",
+    "inaccurateGlow": "rgba(255, 0, 85, 0.65)",
+    "pending": "#0088ff",
+    "pendingGlow": "rgba(0, 136, 255, 0.7)",
+    "textPrimary": "#e0efff",
+    "textSecondary": "#bfe7ff",
+    "textDim": "#99a3cc",
+    "border": "rgba(0, 199, 255, 0.6)",
+    "borderStrong": "rgba(0, 255, 153, 0.65)",
+    "scanline": "rgba(0, 199, 255, 0.04)"
   },
   "typography": {
     "fontDisplay": "Sora",
@@ -34,27 +34,27 @@
     "headingWeight": "600"
   },
   "effects": {
-    "particleCount": 85000000,
-    "particleSpeed": 160,
-    "glowIntensity": 220000,
+    "particleCount": 95000000,
+    "particleSpeed": 170,
+    "glowIntensity": 240000,
     "scanlineVisible": true,
     "noiseVisible": true,
     "bloomEnabled": true,
-    "cardBlur": "3200px",
-    "cardOpacity": "0.94",
-    "borderRadius": "3000px",
-    "timelineGlowWidth": "200000px"
+    "cardBlur": "3600px",
+    "cardOpacity": "0.96",
+    "borderRadius": "3500px",
+    "timelineGlowWidth": "220000px"
   },
   "animations": {
-    "transitionSpeed": "0.25s",
-    "floatDuration": "6s",
-    "pulseDuration": "0.18s",
-    "scanDuration": "0.28s",
-    "particleDuration": "9s"
+    "transitionSpeed": "0.22s",
+    "floatDuration": "5.5s",
+    "pulseDuration": "0.15s",
+    "scanDuration": "0.26s",
+    "particleDuration": "10s"
   },
   "layout": {
-    "timelineStyle": "gravitational-void",
-    "cardStyle": "dark-singularity",
-    "backgroundPattern": "subatomic-flow"
+    "timelineStyle": "polar-stream",
+    "cardStyle": "aurora-glass",
+    "backgroundPattern": "luminous-drift"
   }
 }
