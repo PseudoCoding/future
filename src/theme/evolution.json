@@ -1,31 +1,31 @@
 {
   "_comment": "This file is autonomously evolved daily by GitHub Copilot based on emerging UI/UX trends.",
   "_lastEvolvedBy": "GitHub Copilot",
-  "_lastEvolvedAt": "2026-05-30T12:37:56.016Z",
-  "_evolutionNote": "Evolved the theme to reflect a 'Quantum Entanglement' aesthetic, emphasizing dynamic complementary colors that mirror and contrast, creating an immersive and futuristic experience. The palette includes paired hues of deep blues, magentas, and glowing cyans with subtle interconnected patterns, mimicking the interplay of quantum particles. This direction embodies a balance of energy and mystery, future-proofing the design with a cutting-edge and captivating look.",
+  "_lastEvolvedAt": "2026-05-31T12:42:00.702Z",
+  "_evolutionNote": "Evolved the theme to reflect a 'Arctic Aurora' aesthetic, inspired by the vibrant and high-contrast light displays of polar auroras. The palette blends icy blues, greens, and purples with subtle glowing gradients and ethereal effects, creating a sharp, crisp, and immersive design. This direction emphasizes a futuristic elegance and the beauty of dynamic light in darkness.",
   "colors": {
-    "background": "#0d0a16",
-    "backgroundSecondary": "#161328",
-    "backgroundTertiary": "#1e1a38",
-    "primary": "#3b8bff",
-    "primaryGlow": "rgba(59, 139, 255, 0.85)",
-    "primaryDim": "rgba(59, 139, 255, 0.6)",
-    "secondary": "#ff6ac1",
-    "secondaryGlow": "rgba(255, 106, 193, 0.75)",
-    "accent": "#24fffd",
-    "accentGlow": "rgba(36, 255, 253, 0.72)",
-    "accurate": "#60ffa3",
-    "accurateGlow": "rgba(96, 255, 163, 0.78)",
-    "inaccurate": "#ff355e",
-    "inaccurateGlow": "rgba(255, 53, 94, 0.7)",
-    "pending": "#ffd700",
-    "pendingGlow": "rgba(255, 215, 0, 0.75)",
-    "textPrimary": "#e0f5ff",
-    "textSecondary": "#c1d6f5",
-    "textDim": "#92b3d1",
-    "border": "rgba(59, 139, 255, 0.55)",
-    "borderStrong": "rgba(36, 255, 253, 0.65)",
-    "scanline": "rgba(59, 139, 255, 0.02)"
+    "background": "#0a0d1a",
+    "backgroundSecondary": "#101526",
+    "backgroundTertiary": "#182034",
+    "primary": "#00c1ff",
+    "primaryGlow": "rgba(0, 193, 255, 0.85)",
+    "primaryDim": "rgba(0, 193, 255, 0.6)",
+    "secondary": "#46ff96",
+    "secondaryGlow": "rgba(70, 255, 150, 0.75)",
+    "accent": "#9f4fff",
+    "accentGlow": "rgba(159, 79, 255, 0.72)",
+    "accurate": "#6effd4",
+    "accurateGlow": "rgba(110, 255, 212, 0.78)",
+    "inaccurate": "#ff4f7d",
+    "inaccurateGlow": "rgba(255, 79, 125, 0.7)",
+    "pending": "#ffdd55",
+    "pendingGlow": "rgba(255, 221, 85, 0.75)",
+    "textPrimary": "#effbff",
+    "textSecondary": "#cce7f5",
+    "textDim": "#99bbcc",
+    "border": "rgba(0, 193, 255, 0.55)",
+    "borderStrong": "rgba(70, 255, 150, 0.65)",
+    "scanline": "rgba(0, 193, 255, 0.03)"
   },
   "typography": {
     "fontDisplay": "Space Grotesk",
@@ -34,27 +34,27 @@
     "headingWeight": "650"
   },
   "effects": {
-    "particleCount": 500000000,
-    "particleSpeed": 85,
-    "glowIntensity": 380000,
+    "particleCount": 600000000,
+    "particleSpeed": 120,
+    "glowIntensity": 450000,
     "scanlineVisible": true,
     "noiseVisible": true,
     "bloomEnabled": true,
-    "cardBlur": "6000px",
-    "cardOpacity": "0.92",
-    "borderRadius": "7000px",
-    "timelineGlowWidth": "550000px"
+    "cardBlur": "7000px",
+    "cardOpacity": "0.94",
+    "borderRadius": "10000px",
+    "timelineGlowWidth": "700000px"
   },
   "animations": {
-    "transitionSpeed": "0.3s",
-    "floatDuration": "6s",
-    "pulseDuration": "0.5s",
-    "scanDuration": "0.65s",
-    "particleDuration": "13s"
+    "transitionSpeed": "0.28s",
+    "floatDuration": "7s",
+    "pulseDuration": "0.4s",
+    "scanDuration": "0.6s",
+    "particleDuration": "15s"
   },
   "layout": {
-    "timelineStyle": "entangled-streams",
-    "cardStyle": "transparent-prism",
-    "backgroundPattern": "quantum-field-gradient"
+    "timelineStyle": "aurora-streams",
+    "cardStyle": "frosted-glass",
+    "backgroundPattern": "arctic-gradient-ribbons"
   }
 }
