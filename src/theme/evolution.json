@@ -1,31 +1,31 @@
 {
   "_comment": "This file is autonomously evolved daily by GitHub Copilot based on emerging UI/UX trends.",
   "_lastEvolvedBy": "GitHub Copilot",
-  "_lastEvolvedAt": "2026-06-03T13:55:52.575Z",
-  "_evolutionNote": "Evolved the theme to reflect a 'Neural Substrate' aesthetic. This design draws inspiration from bio-digital neural connectivity, blending warm purples and deep magentas with organic, glowing highlights. It evokes a surreal, futuristic world where technology and biology intertwine, offering a captivating and immersive interface.",
+  "_lastEvolvedAt": "2026-06-04T13:22:42.815Z",
+  "_evolutionNote": "Evolved the theme to reflect a 'Quantum Entanglement' aesthetic. This design uses paired complementary colors that create a sense of interconnectedness and symmetry, mirroring the concept of particles linked across vast distances. The theme embraces vibrant, dynamic energy flows and precise, glowing geometric patterns for a futuristic, tech-forward interface.",
   "colors": {
-    "background": "#140016",
-    "backgroundSecondary": "#1a001f",
-    "backgroundTertiary": "#210029",
-    "primary": "#ff2975",
-    "primaryGlow": "rgba(255, 41, 117, 0.85)",
-    "primaryDim": "rgba(255, 41, 117, 0.4)",
-    "secondary": "#e000ff",
-    "secondaryGlow": "rgba(224, 0, 255, 0.8)",
-    "accent": "#ff00a8",
-    "accentGlow": "rgba(255, 0, 168, 0.7)",
-    "accurate": "#b200ff",
-    "accurateGlow": "rgba(178, 0, 255, 0.85)",
-    "inaccurate": "#ff005c",
-    "inaccurateGlow": "rgba(255, 0, 92, 0.6)",
-    "pending": "#ffae00",
-    "pendingGlow": "rgba(255, 174, 0, 0.6)",
-    "textPrimary": "#ffe6f7",
-    "textSecondary": "#d4b8d7",
-    "textDim": "#a47aa5",
-    "border": "rgba(255, 41, 117, 0.5)",
-    "borderStrong": "rgba(224, 0, 255, 0.6)",
-    "scanline": "rgba(178, 0, 255, 0.03)"
+    "background": "#0b0c1e",
+    "backgroundSecondary": "#12132f",
+    "backgroundTertiary": "#1a1b40",
+    "primary": "#00eaff",
+    "primaryGlow": "rgba(0, 234, 255, 0.85)",
+    "primaryDim": "rgba(0, 234, 255, 0.4)",
+    "secondary": "#ff6a00",
+    "secondaryGlow": "rgba(255, 106, 0, 0.85)",
+    "accent": "#00ff88",
+    "accentGlow": "rgba(0, 255, 136, 0.7)",
+    "accurate": "#00aaff",
+    "accurateGlow": "rgba(0, 170, 255, 0.85)",
+    "inaccurate": "#ff0044",
+    "inaccurateGlow": "rgba(255, 0, 68, 0.6)",
+    "pending": "#ffa700",
+    "pendingGlow": "rgba(255, 167, 0, 0.7)",
+    "textPrimary": "#e6f7ff",
+    "textSecondary": "#c2d7df",
+    "textDim": "#8ba2b0",
+    "border": "rgba(0, 234, 255, 0.5)",
+    "borderStrong": "rgba(255, 106, 0, 0.6)",
+    "scanline": "rgba(0, 170, 255, 0.03)"
   },
   "typography": {
     "fontDisplay": "Inter",
@@ -34,27 +34,27 @@
     "headingWeight": "700"
   },
   "effects": {
-    "particleCount": 1200000,
-    "particleSpeed": 250,
-    "glowIntensity": 900000,
+    "particleCount": 1500000,
+    "particleSpeed": 300,
+    "glowIntensity": 1100000,
     "scanlineVisible": true,
     "noiseVisible": true,
     "bloomEnabled": true,
-    "cardBlur": "8000px",
-    "cardOpacity": "0.94",
-    "borderRadius": "9000px",
-    "timelineGlowWidth": "800000px"
+    "cardBlur": "9000px",
+    "cardOpacity": "0.96",
+    "borderRadius": "10000px",
+    "timelineGlowWidth": "900000px"
   },
   "animations": {
-    "transitionSpeed": "0.25s",
-    "floatDuration": "12s",
-    "pulseDuration": "0.4s",
-    "scanDuration": "0.7s",
-    "particleDuration": "10s"
+    "transitionSpeed": "0.2s",
+    "floatDuration": "10s",
+    "pulseDuration": "0.3s",
+    "scanDuration": "0.6s",
+    "particleDuration": "8s"
   },
   "layout": {
-    "timelineStyle": "neural-streams",
-    "cardStyle": "substrate-glass",
-    "backgroundPattern": "bio-digital-network"
+    "timelineStyle": "quantum-streams",
+    "cardStyle": "entanglement-glass",
+    "backgroundPattern": "quantum-fields"
   }
 }
