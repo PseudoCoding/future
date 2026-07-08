@@ -1,31 +1,31 @@
 {
   "_comment": "This file is autonomously evolved daily by GitHub Copilot based on emerging UI/UX trends.",
   "_lastEvolvedBy": "GitHub Copilot",
-  "_lastEvolvedAt": "2026-07-07T14:53:54.136Z",
-  "_evolutionNote": "The theme has transitioned to a 'Quantum Entanglement' aesthetic, characterized by paired complementary colors that create a dynamic, mirrored interplay of light and color. The design evokes a sense of futuristic complexity and balance, reflecting the duality and interconnectedness of quantum systems. Subtle animations, enhanced particle effects, and refined glow intensities amplify the immersion while maintaining a sleek, minimalistic dark aesthetic.",
+  "_lastEvolvedAt": "2026-07-08T14:31:48.389Z",
+  "_evolutionNote": "The theme has transitioned to a 'Bioluminescent Deep-Ocean' aesthetic, inspired by the mysterious and ethereal glow found in the depths of the ocean. It features deep blues, radiant cyan, and soft greens with gentle, flowing animations. The design evokes a sense of serene depth and futuristic exploration while maintaining a strong dark aesthetic.",
   "colors": {
-    "background": "#090a0f",
-    "backgroundSecondary": "#11131a",
-    "backgroundTertiary": "#171a24",
-    "primary": "#ff6f61",
-    "primaryGlow": "rgba(255, 111, 97, 0.85)",
-    "primaryDim": "rgba(255, 111, 97, 0.5)",
-    "secondary": "#61afff",
-    "secondaryGlow": "rgba(97, 175, 255, 0.75)",
-    "accent": "#ffcb6b",
-    "accentGlow": "rgba(255, 203, 107, 0.8)",
-    "accurate": "#88e1ff",
-    "accurateGlow": "rgba(136, 225, 255, 0.8)",
-    "inaccurate": "#ff88d2",
-    "inaccurateGlow": "rgba(255, 136, 210, 0.8)",
-    "pending": "#82f4d4",
-    "pendingGlow": "rgba(130, 244, 212, 0.85)",
-    "textPrimary": "#e6f7ff",
-    "textSecondary": "#c6e6ff",
-    "textDim": "#a0b8d1",
-    "border": "rgba(255, 111, 97, 0.4)",
-    "borderStrong": "rgba(97, 175, 255, 0.5)",
-    "scanline": "rgba(97, 175, 255, 0.12)"
+    "background": "#0b0d17",
+    "backgroundSecondary": "#101322",
+    "backgroundTertiary": "#16203a",
+    "primary": "#00f5d4",
+    "primaryGlow": "rgba(0, 245, 212, 0.85)",
+    "primaryDim": "rgba(0, 245, 212, 0.4)",
+    "secondary": "#00bbf9",
+    "secondaryGlow": "rgba(0, 187, 249, 0.75)",
+    "accent": "#72f2eb",
+    "accentGlow": "rgba(114, 242, 235, 0.8)",
+    "accurate": "#4ae8ff",
+    "accurateGlow": "rgba(74, 232, 255, 0.8)",
+    "inaccurate": "#3fefa9",
+    "inaccurateGlow": "rgba(63, 239, 169, 0.8)",
+    "pending": "#57ffcf",
+    "pendingGlow": "rgba(87, 255, 207, 0.85)",
+    "textPrimary": "#cdeffb",
+    "textSecondary": "#a4d9ea",
+    "textDim": "#7ba8c5",
+    "border": "rgba(0, 245, 212, 0.25)",
+    "borderStrong": "rgba(0, 187, 249, 0.4)",
+    "scanline": "rgba(0, 187, 249, 0.1)"
   },
   "typography": {
     "fontDisplay": "Space Grotesk",
@@ -34,27 +34,27 @@
     "headingWeight": "600"
   },
   "effects": {
-    "particleCount": 2800,
-    "particleSpeed": 450,
-    "glowIntensity": 240,
+    "particleCount": 3200,
+    "particleSpeed": 400,
+    "glowIntensity": 260,
     "scanlineVisible": true,
     "noiseVisible": true,
     "bloomEnabled": true,
-    "cardBlur": "300px",
-    "cardOpacity": "0.9",
-    "borderRadius": "32px",
-    "timelineGlowWidth": "180px"
+    "cardBlur": "240px",
+    "cardOpacity": "0.88",
+    "borderRadius": "36px",
+    "timelineGlowWidth": "200px"
   },
   "animations": {
-    "transitionSpeed": "0.04s",
-    "floatDuration": "5.0s",
-    "pulseDuration": "0.08s",
-    "scanDuration": "0.14s",
-    "particleDuration": "3.8s"
+    "transitionSpeed": "0.05s",
+    "floatDuration": "6.0s",
+    "pulseDuration": "0.1s",
+    "scanDuration": "0.16s",
+    "particleDuration": "4.2s"
   },
   "layout": {
-    "timelineStyle": "entangled-stream",
-    "cardStyle": "mirrored-glass",
-    "backgroundPattern": "quantum-field"
+    "timelineStyle": "ethereal-stream",
+    "cardStyle": "glowing-glass",
+    "backgroundPattern": "oceanic-waves"
   }
 }
