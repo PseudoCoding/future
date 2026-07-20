@@ -1,31 +1,31 @@
 {
   "_comment": "This file is autonomously evolved daily by GitHub Copilot based on emerging UI/UX trends.",
   "_lastEvolvedBy": "GitHub Copilot",
-  "_lastEvolvedAt": "2026-07-19T13:40:17.469Z",
-  "_evolutionNote": "The theme has evolved into a 'Neural Substrate' aesthetic, inspired by the organic and interconnected nature of neural networks. Warm purples and deep magentas evoke a sense of biological complexity, while soft, pulsating glows and smoother transitions create a futuristic and immersive experience. The design bridges the gap between artificial intelligence and biological systems, embracing a vision of AI deeply integrated with human-like intelligence.",
+  "_lastEvolvedAt": "2026-07-20T14:24:01.802Z",
+  "_evolutionNote": "The theme has evolved into an 'Arctic Aurora' aesthetic, blending vibrant icy blues, greens, and purples with high-contrast dark tones. The aesthetic mirrors the ethereal and natural glow of the Aurora Borealis while incorporating a futuristic edge. Smooth gradients, soft glows, and dynamically interactive lighting effects create an immersive and magical experience, emphasizing the interplay between nature and technology.",
   "colors": {
-    "background": "#0e0b16",
-    "backgroundSecondary": "#181322",
-    "backgroundTertiary": "#241b34",
-    "primary": "#d7263d",
-    "primaryGlow": "rgba(215, 38, 61, 0.85)",
-    "primaryDim": "rgba(215, 38, 61, 0.5)",
-    "secondary": "#a742e7",
-    "secondaryGlow": "rgba(167, 66, 231, 0.8)",
-    "accent": "#ff9b71",
-    "accentGlow": "rgba(255, 155, 113, 0.85)",
-    "accurate": "#89d88f",
-    "accurateGlow": "rgba(137, 216, 143, 0.75)",
-    "inaccurate": "#d17fb1",
-    "inaccurateGlow": "rgba(209, 127, 177, 0.75)",
-    "pending": "#68b8fc",
-    "pendingGlow": "rgba(104, 184, 252, 0.85)",
-    "textPrimary": "#ece8f4",
-    "textSecondary": "#cbc2da",
-    "textDim": "#a499b6",
-    "border": "rgba(215, 38, 61, 0.35)",
-    "borderStrong": "rgba(167, 66, 231, 0.45)",
-    "scanline": "rgba(255, 155, 113, 0.08)"
+    "background": "#0a0f1e",
+    "backgroundSecondary": "#101829",
+    "backgroundTertiary": "#172235",
+    "primary": "#2ec4b6",
+    "primaryGlow": "rgba(46, 196, 182, 0.9)",
+    "primaryDim": "rgba(46, 196, 182, 0.4)",
+    "secondary": "#5e60ce",
+    "secondaryGlow": "rgba(94, 96, 206, 0.85)",
+    "accent": "#80ffdb",
+    "accentGlow": "rgba(128, 255, 219, 0.85)",
+    "accurate": "#4ce0b3",
+    "accurateGlow": "rgba(76, 224, 179, 0.75)",
+    "inaccurate": "#ff4d6d",
+    "inaccurateGlow": "rgba(255, 77, 109, 0.75)",
+    "pending": "#3f88c5",
+    "pendingGlow": "rgba(63, 136, 197, 0.9)",
+    "textPrimary": "#e0f7fa",
+    "textSecondary": "#b9d6f2",
+    "textDim": "#9cb4cc",
+    "border": "rgba(46, 196, 182, 0.3)",
+    "borderStrong": "rgba(94, 96, 206, 0.4)",
+    "scanline": "rgba(128, 255, 219, 0.1)"
   },
   "typography": {
     "fontDisplay": "Inter",
@@ -34,27 +34,27 @@
     "headingWeight": "500"
   },
   "effects": {
-    "particleCount": 70000,
-    "particleSpeed": 300,
-    "glowIntensity": 1600,
+    "particleCount": 85000,
+    "particleSpeed": 220,
+    "glowIntensity": 1800,
     "scanlineVisible": true,
     "noiseVisible": true,
     "bloomEnabled": true,
-    "cardBlur": "1000px",
-    "cardOpacity": "0.85",
-    "borderRadius": "50px",
-    "timelineGlowWidth": "1100px"
+    "cardBlur": "1200px",
+    "cardOpacity": "0.9",
+    "borderRadius": "60px",
+    "timelineGlowWidth": "1300px"
   },
   "animations": {
-    "transitionSpeed": "0.05s",
-    "floatDuration": "5.0s",
-    "pulseDuration": "0.06s",
-    "scanDuration": "0.09s",
-    "particleDuration": "7.0s"
+    "transitionSpeed": "0.06s",
+    "floatDuration": "5.5s",
+    "pulseDuration": "0.08s",
+    "scanDuration": "0.1s",
+    "particleDuration": "8.0s"
   },
   "layout": {
-    "timelineStyle": "organic-pulse",
-    "cardStyle": "bio-mesh",
-    "backgroundPattern": "neuronal-web"
+    "timelineStyle": "northern-glow",
+    "cardStyle": "aurora-glass",
+    "backgroundPattern": "polar-lights"
   }
 }
