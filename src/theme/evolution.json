@@ -1,31 +1,31 @@
 {
   "_comment": "This file is autonomously evolved daily by GitHub Copilot based on emerging UI/UX trends.",
   "_lastEvolvedBy": "GitHub Copilot",
-  "_lastEvolvedAt": "2026-07-23T14:22:20.842Z",
-  "_evolutionNote": "The theme has shifted to a 'Arctic Aurora' aesthetic, inspired by the vibrant colors of polar lights. Icy blues, greens, and purples create high-contrast highlights amidst the dark backdrop, evoking a sense of chill and mystery. Soft gradients and subtle glowing effects bring depth and fluidity while emphasizing the futuristic AI narrative.",
+  "_lastEvolvedAt": "2026-07-24T14:01:15.519Z",
+  "_evolutionNote": "The theme has transitioned to a 'Bioluminescent Deep-Ocean' aesthetic. Inspired by the mysterious depths of the ocean, this update introduces deep blues, cyan, and ethereal greens, combined with glowing, organic gradients. It emphasizes an immersive, otherworldly experience while aligning with the futuristic AI narrative.",
   "colors": {
-    "background": "#0d0f1a",
-    "backgroundSecondary": "#141824",
-    "backgroundTertiary": "#1a1d2e",
-    "primary": "#569cf8",
-    "primaryGlow": "rgba(86, 156, 248, 0.85)",
-    "primaryDim": "rgba(86, 156, 248, 0.45)",
-    "secondary": "#40d4bc",
-    "secondaryGlow": "rgba(64, 212, 188, 0.75)",
-    "accent": "#a379d4",
-    "accentGlow": "rgba(163, 121, 212, 0.65)",
-    "accurate": "#6ed5ff",
-    "accurateGlow": "rgba(110, 213, 255, 0.75)",
-    "inaccurate": "#ff4d69",
-    "inaccurateGlow": "rgba(255, 77, 105, 0.7)",
-    "pending": "#4fb5e3",
-    "pendingGlow": "rgba(79, 181, 227, 0.85)",
-    "textPrimary": "#edf8ff",
-    "textSecondary": "#bcdce8",
-    "textDim": "#7a9eb4",
-    "border": "rgba(86, 156, 248, 0.35)",
-    "borderStrong": "rgba(86, 156, 248, 0.45)",
-    "scanline": "rgba(64, 212, 188, 0.12)"
+    "background": "#0a0d13",
+    "backgroundSecondary": "#101823",
+    "backgroundTertiary": "#121a25",
+    "primary": "#34b3f1",
+    "primaryGlow": "rgba(52, 179, 241, 0.85)",
+    "primaryDim": "rgba(52, 179, 241, 0.45)",
+    "secondary": "#00e6a8",
+    "secondaryGlow": "rgba(0, 230, 168, 0.75)",
+    "accent": "#5dd6ff",
+    "accentGlow": "rgba(93, 214, 255, 0.65)",
+    "accurate": "#6fd6e7",
+    "accurateGlow": "rgba(111, 214, 231, 0.75)",
+    "inaccurate": "#ff637d",
+    "inaccurateGlow": "rgba(255, 99, 125, 0.7)",
+    "pending": "#3ac6f1",
+    "pendingGlow": "rgba(58, 198, 241, 0.85)",
+    "textPrimary": "#d6efff",
+    "textSecondary": "#a8d9f1",
+    "textDim": "#709eb8",
+    "border": "rgba(52, 179, 241, 0.35)",
+    "borderStrong": "rgba(52, 179, 241, 0.45)",
+    "scanline": "rgba(0, 230, 168, 0.12)"
   },
   "typography": {
     "fontDisplay": "Inter",
@@ -34,27 +34,27 @@
     "headingWeight": "600"
   },
   "effects": {
-    "particleCount": 160000,
-    "particleSpeed": 140,
-    "glowIntensity": 3000,
+    "particleCount": 190000,
+    "particleSpeed": 120,
+    "glowIntensity": 4000,
     "scanlineVisible": true,
     "noiseVisible": false,
     "bloomEnabled": true,
-    "cardBlur": "750px",
-    "cardOpacity": "0.95",
-    "borderRadius": "60px",
-    "timelineGlowWidth": "1200px"
+    "cardBlur": "900px",
+    "cardOpacity": "0.9",
+    "borderRadius": "50px",
+    "timelineGlowWidth": "1400px"
   },
   "animations": {
-    "transitionSpeed": "0.12s",
-    "floatDuration": "7.2s",
-    "pulseDuration": "0.1s",
-    "scanDuration": "0.16s",
-    "particleDuration": "8.1s"
+    "transitionSpeed": "0.15s",
+    "floatDuration": "8s",
+    "pulseDuration": "0.12s",
+    "scanDuration": "0.14s",
+    "particleDuration": "9s"
   },
   "layout": {
-    "timelineStyle": "aurora-stream",
-    "cardStyle": "polar-glass",
-    "backgroundPattern": "arctic-lights"
+    "timelineStyle": "bioluminescent-stream",
+    "cardStyle": "ocean-glass",
+    "backgroundPattern": "deep-sea-glow"
   }
 }
